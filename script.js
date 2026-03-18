@@ -19,3 +19,9 @@ window.addEventListener("click", () =>{
 		dropdownMenu.classList.remove('opacity-100');
 	}
 }); 
+
+// Dark/Light Mode Toggle
+const themeToggle = document.getElementById('themeToggle');
+themeToggle.addEventListener('click', () => {
+  document.documentElement.classList.toggle('dark');
+});
